@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://kartinki.pics/uploads/posts/2022-02/thumbs/1645004537_2-kartinkin-net-p-kartinki-dlya-fona-prezentatsii-2.jpg);
+}
+
+.icons{
+    list-style: none;
+    border: 3px solid rgb(188, 11, 8);
+    width: 800px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(22, 225, 167);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px 5px red;
+
+
+}
+
+.icons li{
+    height: 70px;
+    width: 70px;
+    border: 3px solid rgb(235, 66, 10);
+    display: inline-block;
+    margin-top: 10px;
+    transition: 2s;
+    box-shadow: 0px 0px 5px 3px red;
+}
+
+.icons li:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+    border-radius: 50%;
+    border: 4px solid red;
+    box-shadow: 0px 0px 10px 5px red;
+}
+
+a{
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+a i:hover{
+
+    transition: 2s;
+    transform: scale(1.5);
+    color: blueviolet;
+}
+
